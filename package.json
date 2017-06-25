@@ -1,0 +1,36 @@
+{
+  "name": "domvlesunn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maksimkosxx/domvlesunn.git"
+  },
+  "author": "MScheglov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maksimkosxx/domvlesunn/issues"
+  },
+  "homepage": "https://github.com/maksimkosxx/domvlesunn#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "dependencies": {
+    "jshint-stylish": "^2.2.1",
+    "time-grunt": "^1.4.0"
+  }
+}

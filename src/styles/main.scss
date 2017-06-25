@@ -1,0 +1,30 @@
+//Файлы должны быть импортированы в соответствии с папкой размещения,
+// один за другим, в соответствуещем порядке:
+//
+//vendors/
+//utils/
+//base/
+//components/
+//layout/
+//pages/
+//themes/
+//
+
+
+
+@import 'vendors/bootstrap';
+
+@import 'utils/variables',
+        'utils/mixins',
+        'utils/placeholders';
+
+@import 'base/reset',
+        'base/typography',
+        'base/base';
+
+@import 'components/buttons';
+
+@import 'layout/header';
+
+
+
