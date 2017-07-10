@@ -1,6 +1,5 @@
 header {
-  padding: 20px;
-  text-transform: uppercase;
+  padding: 20px 0;
 }
 .navigation {
   display: none;
@@ -8,4 +7,12 @@ header {
 .navigation-btn__icon {
   width: 30px;
   height: 30px;
+}
+.logo-img img {
+  width: 150px;
+}
+.logo-title {
+  font: 25px/30px $font-family--logo;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }

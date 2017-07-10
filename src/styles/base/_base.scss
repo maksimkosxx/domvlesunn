@@ -6,3 +6,15 @@ body {
 h1 {
 
 }
+.container {
+  padding: 20px;
+  box-sizing: border-box;
+}
+@media (min-width: 1025px){
+  .hidden-lg {
+    display: none;
+  }
+  .container {
+    max-width: 1400px;
+  }
+}
