@@ -11,10 +11,8 @@ h1 {
   box-sizing: border-box;
 }
 @media (min-width: 1025px){
-  .hidden-lg {
-    display: none;
-  }
   .container {
     max-width: 1400px;
+    margin: 0 auto;
   }
 }

@@ -15,7 +15,6 @@ module.exports = function (grunt) {
             dev: {
                 options: {
                     style: 'expanded',
-                    compass: true,
                     sourcemap: 'none'
 
                 },
@@ -30,7 +29,6 @@ module.exports = function (grunt) {
             prod: {
                 options: {
                     style: 'compressed',
-                    compass: true,
                     sourcemap: 'none'
 
                 },

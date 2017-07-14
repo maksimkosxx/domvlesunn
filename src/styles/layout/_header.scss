@@ -1,5 +1,15 @@
 header {
   padding: 20px 0;
+  .logo {
+    @include make-lg-column(4);
+    &-img {
+      float: left;
+      margin-right: 20px;
+    }
+    &-title {
+      margin-top: 20px;
+    }
+  }
 }
 .navigation {
   display: none;

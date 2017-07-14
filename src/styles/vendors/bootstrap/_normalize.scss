@@ -208,12 +208,7 @@ figure {
 //
 // Address differences between Firefox and other browsers.
 //
-header,
-footer,
-section,
-div {
-  box-sizing: border-box;
-}
+
 hr {
   box-sizing: content-box;
   height: 0;
