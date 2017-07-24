@@ -1,0 +1,8 @@
+.idea
+.gitignore
+.bowerrc
+bower.json
+package.json
+gruntfile.js
+readme
+node_modules
