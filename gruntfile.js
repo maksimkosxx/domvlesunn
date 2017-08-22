@@ -101,9 +101,7 @@ module.exports = function (grunt) {
     });
 
 
-    grunt.registerTask('dev', ['concat', 'watch']);
-
-    grunt.registerTask('default', ['clean', 'sass:prod', 'uglify', 'imagemin', 'copy']);
+    grunt.registerTask('default', ['clean', 'sass:prod', 'uglify', 'concat:prod', 'imagemin', 'copy']);
 
 
 };

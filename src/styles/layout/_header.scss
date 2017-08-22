@@ -1,16 +1,12 @@
-.wrapper-hero {
-  min-height: 60vh;
-  background: url(/images/background_web.jpg) 100% 100% no-repeat;
-  background-size: cover;
-}
 
 header {
-  padding: 20px 0;
+  padding: 20px 0 0;
   @include clearfix;
   .logo {
     @include make-lg-column(3);
     &-img {
       float: left;
+      display: block;
       img {
         max-width: 140px;
         margin-top: 5px;
@@ -40,17 +36,22 @@ header {
     display: inline-block;
     vertical-align: middle;
     &:first-child a {
-      padding: 0 9px 0 0;
+      margin: 0 9px 0 0;
     }
     &:last-child a {
-      padding: 0 0 0 9px;
+      margin: 0 0 0 9px;
     }
     a {
-      padding: 0 9px;
+      margin: 0 9px;
+      border-bottom: 2px solid transparent;
       font-size: 15px;
       text-transform: uppercase;
       text-decoration: none;
       color: #000000;
+      &:hover {
+        border-bottom: 2px solid #96be0f;
+        transition: all 0.3s linear;
+      }
     }
   }
 }
@@ -65,13 +66,21 @@ header {
     text-decoration: none;
     font-size: 25px;
     line-height: 30px;
-
+    &:hover {
+      color: #96be0f;
+      transition: color 0.3s linear;
+    }
   }
   &-callback {
+    cursor: pointer;
     span {
       vertical-align: middle;
       &:last-child {
         color: #96be0f;
+        &:hover {
+          color: #78980b;
+          transition: color 0.3s linear;
+        }
       }
     }
   }

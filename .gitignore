@@ -6,3 +6,4 @@ package.json
 gruntfile.js
 readme
 node_modules
+.sass-cache

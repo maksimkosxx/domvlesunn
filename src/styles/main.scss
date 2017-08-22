@@ -12,7 +12,8 @@
 
 
 
-@import 'vendors/bootstrap';
+@import 'vendors/bootstrap',
+        'vendors/slick';
 
 @import 'utils/variables',
         'utils/mixins',
@@ -24,7 +25,10 @@
 
 @import 'components/buttons';
 
-@import 'layout/header';
+@import 'layout/header',
+        'layout/hero',
+        'layout/feedback';
+
 
 
 

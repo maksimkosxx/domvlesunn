@@ -6,6 +6,18 @@
   url('/fonts/port_arthur.ttf') format('tryetype');
 }
 @font-face {
+  font-family: PFCentroBold;
+  font-style: normal;
+  font-weight: 800;
+  src:  url('/fonts/pfcentroslabpro-bold.woff') format('woff');
+}
+@font-face {
+  font-family: PFCentroMedium;
+  font-style: normal;
+  font-weight: 500;
+  src:  url('/fonts/pfcentroslabpro-medium.woff') format('woff');
+}
+@font-face {
   font-family: RobotoThin;
   font-style: normal;
   font-weight: 100;

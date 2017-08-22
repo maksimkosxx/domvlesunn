@@ -1,0 +1,125 @@
+.wrapper-hero {
+  position: relative;
+  min-height: 100vh;
+  background-image: url(/images/line-top.png), url(/images/fon-hero2.jpg);
+  background-position: 0 0, 100% 100%;
+  background-repeat: repeat-x, no-repeat;
+  background-size: auto, cover;
+}
+.hero-line__bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 41px;
+  background: url(/images/line-bottom.png) center repeat-x;
+}
+.hero {
+  padding: 70px 0 50px;
+  &-title {
+    text-align: center;
+    span {
+      color: #ffffff;
+      &:first-child {
+        font: 35px/45px $font-family--thin;
+      }
+      &:last-child {
+        font: 50px/60px $font-family--pfc-medium;
+      }
+    }
+  }
+}
+.hero-advantages {
+  position: relative;
+  padding: 7vh 0 0;
+  &__content {
+    overflow: hidden;
+  }
+  &__item {
+    display: none;
+    @include make-lg-column(4);
+    text-align: center;
+    color: #ffffff;
+  }
+}
+.hero-advantages__line {
+  width: 80%;
+  height: 23px;
+  margin: 40px auto 0;
+  background: url(/images/wave.png) left bottom repeat-x;
+  background-size: 23px;
+}
+.advantages-item__circle {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 100%;
+  border: 2px solid rgba(140,161,8, 0.7);
+  border-left-color: rgba(255,247,3, 0.8);
+  border-top-color: rgba(255,247,3, 0.8);
+  background-color: rgba(0, 0, 0, 0.2);
+  &::before {
+    position: absolute;
+  }
+  div:first-child {   
+    font: 25px/30px $font-family--light;    
+  }
+  .item-line{
+    width: 65px;
+    height: 1px;
+    margin: 3px 0;
+    background-color: #c3bc92;
+  }
+  div:last-child{    
+    font: 12px/22px $font-family--light;
+  }
+}
+.item-bull {
+  margin-top: 5px;
+  font-size: 20px;
+  color: #fff703;
+}
+.advantages-item__description {
+  max-width: 115px;
+  margin: 0 auto;
+  font: 11px/16px $font-family--light;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.hero__small-advantages {
+  padding: 30px 0;
+}
+.small-advantages__item {
+  @include make-lg-column(4);
+  text-align: center;
+  color: #ffffff;
+}
+.small-advantages__icon {
+  width: 30px;
+  height: 40px;
+  margin: 0 auto 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  &.icon--drop {
+    background-image: url(/images/drop.svg);
+  }
+  &.icon--lamp {
+    background-image: url(/images/lamp.svg);
+  }
+  &.icon--money {
+    background-image: url(/images/money.svg);
+  }
+}
+.small-advantages__text {
+  max-width: 130px;
+  margin: 0 auto;
+  font: 11px/16px $font-family--light;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

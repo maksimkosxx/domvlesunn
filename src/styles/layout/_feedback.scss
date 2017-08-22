@@ -1,0 +1,121 @@
+
+.wrapper-feedback {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+.feedback {
+  display: none;
+  position: fixed;
+  top: 20%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1001;
+  width: 90%;
+  max-width: 670px;
+  min-height: 330px;
+  &-close {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    &:hover {
+      color: #ffe102;
+      transition: all 0.2s linear;
+    }
+  }
+  &-content {
+    width: 100%;
+    max-width: 670px;
+    min-height: 330px;
+    padding: 40px 5vw 30px;
+    box-sizing: border-box;
+    border: 10px solid #96be0f;
+    background: #f8f8f8;
+  }
+  &-title {
+    margin-bottom: 40px;
+    font: 40px/45px $font-family--regular;
+  }
+  &-form {
+    &__description {
+      display: inline-block;
+      vertical-align: middle;
+      max-width: 240px;
+    }
+    li {
+      display: inline-block;
+      vertical-align: top;
+      max-width: 250px;
+      width: 60%;
+      &:first-child {
+        margin-right: 15px;
+      }
+      input[type="text"] {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        border-radius: 5px;
+        border: 1px solid #c6c6ca;
+        outline: none;
+        font: 14px $font-family--regular;
+        box-sizing: border-box;
+      }
+    }
+    input[type="submit"] {
+      display: inline-block;
+      vertical-align: middle;
+      width: 50%;
+      max-width: 250px;
+      height: 57px;
+      margin: 0 25px 4px 0;
+      border: none;
+      border-radius: 5px;
+      font: 20px $font-family--regular;
+      box-shadow: 0 4px 0 -2px #ffe102;
+      background: #524b16;
+      color: #ffe102;
+      cursor: pointer;
+      outline: none;
+      &:hover {
+        background: #29294a;
+        transition: all 0.2s linear;
+      }
+    }
+  }
+  &-footer {
+    max-width: 685px;
+    margin: 4vh auto 0;
+    color: #ffffff;
+    &__description {
+      display: inline-block;
+      vertical-align: middle;
+      max-width: 330px;
+      margin-right: 40px;
+      font: 35px/40px $font-family--regular;
+    }
+    &__phone {
+      display: inline-block;
+      vertical-align: middle;
+      max-width: 300px;
+    }
+    .feedback-phone__number {
+      margin-bottom: 15px;
+      font: 35px/40px $font-family--regular;
+      color: #96be0f;
+    }
+  }
+}
+
+

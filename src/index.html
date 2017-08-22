@@ -18,9 +18,9 @@
     <div class="row">
         <header>
             <div class="logo">
-                <div class="logo-img">
+                <a href="/" class="logo-img">
                     <img src="/images/logo/logo2.png" alt="DOMVLESUNN">
-                </div>
+                </a>
                 <div class="logo-title">
                     Domvlesunn
                 </div>
@@ -50,7 +50,7 @@
                     <a href="tel:+7 909 291 11 62" class="phone-number">+7 909 291 11 62</a>
                     <a href="tel:+7 920 007 97 87 " class="phone-number">+7 920 007 97 87</a>
                 </div>
-                <div class="phone-callback">
+                <div class="phone-callback feedback-btn">
                     <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13"><path fill="#96be0f" fill-rule="evenodd" d="M9.083 12a2.514 2.514 0 0 1-.843-.145 11.588 11.588 0 0 1-7.117-7.307 2.527 2.527 0 0 1 .87-2.786l.543-.413a1.72 1.72 0 0 1 2.57.582l.916 1.78a1.2 1.2 0 0 1-.184 1.362l-.19.208a.67.67 0 0 0-.1.76A3.245 3.245 0 0 0 6.95 7.447a.683.683 0 0 0 .76-.1l.21-.19a1.226 1.226 0 0 1 1.36-.187l1.783.916a1.715 1.715 0 0 1 .435 2.734l-.62.627A2.545 2.545 0 0 1 9.083 12z"></path></svg></span>
                     <span>Заказать звонок</span>
                 </div>
@@ -62,13 +62,121 @@
     <section class="container">
         <div class="row">
             <div class="hero">
-
+                <div class="hero-title">
+                    <span>земельные участки</span> <br>
+                    <span>&laquo;DOMVLESUNN&raquo;</span>
+                </div>
+                <div class="hero-advantages">
+                   <div class="hero-advantages__content">
+                       <div class="hero-advantages__item">
+                           <div class="advantages-item__circle">
+                               <div class="spincrement">56</div>
+                               <div class="item-line"></div>
+                               <div>139</div>
+                           </div>
+                           <div class="item-bull">&bull;</div>
+                           <div class="advantages-item__description">
+                               свободных участков
+                           </div>
+                       </div>
+                       <div class="hero-advantages__item">
+                           <div class="advantages-item__circle">
+                               <div class="spincrement">14</div>
+                               <div class="item-line"></div>
+                               <div>км</div>
+                           </div>
+                           <div class="item-bull">&bull;</div>
+                           <div class="advantages-item__description">
+                               удаленность от&nbsp;города
+                           </div>
+                       </div>
+                       <div class="hero-advantages__item">
+                           <div class="advantages-item__circle">
+                               <div class="spincrement">6</div>
+                               <div class="item-line"></div>
+                               <div>соток</div>
+                           </div>
+                           <div class="item-bull">&bull;</div>
+                           <div class="advantages-item__description">
+                               минимальный размер&nbsp;участков
+                           </div>
+                       </div>
+                   </div>
+                    <div class="hero-advantages__line"></div>
+                </div>
+                <div class="hero__small-advantages">
+                    <div class="small-advantages__item">
+                        <div class="small-advantages__icon icon--drop"></div>
+                        <div class="small-advantages__text">экологически чистый район</div>
+                    </div>
+                    <div class="small-advantages__item">
+                        <div class="small-advantages__icon icon--lamp"></div>
+                        <div class="small-advantages__text">центральные коммуникации</div>
+                    </div>
+                    <div class="small-advantages__item">
+                        <div class="small-advantages__icon icon--money"></div>
+                        <div class="small-advantages__text">надежное вложение средств</div>
+                    </div>
+                </div>
+                <!--.hero-slider>.-->
             </div>
         </div>
     </section>
+    <div class="hero-line__bottom"></div>
 </div>
 
 
+<div class="feedback">
+    <div class="feedback-content">
+        <div class="feedback-title">
+            Заказать обратный звонок
+        </div>
+        <div class="feedback-form">
+            <form class="request-form" action="#" method="post">
+                <input type="hidden" name="name" value="">
+                <ul>
+                    <li>
+                        <label for="id_name">Ваше имя</label>
+                        <input id="id_name" maxlength="128" name="name" placeholder="Как вас зовут?" type="text">
+                    </li>
+                    <li>
+                        <label for="id_phone">Телефон</label>
+                        <input id="id_phone" maxlength="15" name="phone" placeholder="Ваш номер телефона" type="text" required="">
+                    </li>
+                </ul>
+                <input type="submit" value="Отправить заявку">
+                <div class="feedback-form__description">
+                    Мы перезвоним через 5 минут.
+                    Ответим на все вопросы.
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="feedback-footer">
+        <div class="feedback-footer__description">
+            Если хотите
+            позвонить
+            самостоятельно
+        </div>
+        <div class="feedback-footer__phone">
+            <div class="feedback-phone__number">
+                +7 495 456 76 89
+            </div>
+            <div class="feedback-phone__text">
+                Мы работаем ежедневно с 9:00 до 20:00.
+            </div>
+        </div>
+    </div>
+    <span class="feedback-close">
+        <i class="fa fa-times" aria-hidden="true"></i>
+    </span>
+</div>
+<div class="wrapper-feedback"></div>
+
+
 <script src="/libs/libs.js"></script>
+<script src="https://use.fontawesome.com/b6d5c21aaa.js"></script>
+<script src="/scripts/main.js"></script>
+
 </body>
 </html>
